@@ -98,7 +98,7 @@ module.exports = {
       `,
     personalInfo: {
       name: "ZShuai",
-      avatar: "/img/avatar.jpg",
+      avatar: "/img/avatar.png",
       description: "新的风暴已经出现",
       sns: {
         github: "66njk", // Github
@@ -108,21 +108,29 @@ module.exports = {
     homeHeaderImages: {
       local: [
         {
-          path: "/img/home-bg/0.jpg",
+          path: "/img/home-bg/1.jpeg",
           mask: "rgba(40, 57, 101, .4)",
         },
         {
-          path: "/img/home-bg/1.jpg",
+          path: "/img/home-bg/2.jpeg",
           mask: "rgba(40, 57, 101, .4)",
         },
-        // {
-        //   path: '/img/home-bg/2.jpeg',
-        //   mask: 'rgba(40, 57, 101, .4)',
-        // },
-        // {
-        //   path: '/img/home-bg/3.jpeg',
-        //   mask: 'rgba(40, 57, 101, .4)',
-        // },
+        {
+          path: "/img/home-bg/3.jpg",
+          mask: "rgba(40, 57, 101, .4)",
+        },
+        {
+          path: "/img/home-bg/4.jpeg",
+          mask: "rgba(40, 57, 101, .4)",
+        },
+        {
+          path: "/img/home-bg/5.jpeg",
+          mask: "rgba(40, 57, 101, .4)",
+        },
+        {
+          path: "/img/home-bg/7.jpeg",
+          mask: "rgba(40, 57, 101, .4)",
+        },
       ],
     },
     pages: {
@@ -169,8 +177,8 @@ module.exports = {
       platform: "github",
       owner: "109306201", // 用于放评论的仓库的拥有者 ID
       repo: "comments", // 用于放评论的仓库名
-      clientId: "your-client-id", // OAuth App Client ID
-      clientSecret: "client-secret", // OAuth App Client Secret
+      clientId: "acb0866a678cf5d87167", // OAuth App Client ID
+      clientSecret: "72bbe1249299976fd299ed0a04398790f3ca6d19", // OAuth App Client Secret
     },
     readingTime: {
       excludes: ["/url1", "/url2/.*"], // 不需要进行统计的页面路径，默认为 ["/tags/.*", "/links"]

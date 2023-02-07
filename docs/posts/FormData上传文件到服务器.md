@@ -1,7 +1,7 @@
 ---
 title: FormData上传文件到服务器
 date: 2022-08-29
-header_img: https://img-qn.51miz.com/preview/photo/00/01/50/33/P-1503304-E0B46C52O.jpg!/quality/90/unsharp/true/compress/true/format/jpg/fw/720
+header_img: https://api.vvhan.com/api/view
 headerMask: rgba(40, 57, 101, .4)
 tags:
   - FormData

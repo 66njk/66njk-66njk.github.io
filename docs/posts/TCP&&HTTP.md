@@ -3,7 +3,7 @@ title: TCP&&HTTP  # 博客标题（必须）
 subtitle: 面试官问我：一个 TCP 连接可以发多少个 HTTP 请求？我竟然回答不上来...  # 博客副标题（可选）
 date: 2022-06-24  # 博客日期，会显示在文章头部（可选）
 author: wayne # 博客作者（可选，不填的话会使用 `themeConfig.personalInfo.name`）
-header_img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F1114%2F0P420114557%2F200P4114557-5-1200.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1664431067&t=c57c6e50fc1ca5086677e49905a91db9
+header_img: https://api.vvhan.com/api/view
 headerMask: rgba(40, 57, 101, .4)
 tags:
 
