@@ -2,7 +2,7 @@
 
 set -e
 
-# 生成静态文件
+# 生成静态文件111
 
 npm run build
 
