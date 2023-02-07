@@ -84,7 +84,6 @@ module.exports = {
   ],
   title: "前端文档",
   description: "ZShuai's Blog ",
-  base: "/blog",
   theme: "gungnir",
   port: "8880",
   evergreen: true,
