@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>从 0 开始学 docker | 前端文档</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="ZShuai&#39;s Blog ">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.f4f9e44b.css" as="style"><link rel="preload" href="/blog/assets/js/app.0e1b1ffb.js" as="script"><link rel="preload" href="/blog/assets/js/4.7034fd5a.js" as="script"><link rel="preload" href="/blog/assets/js/1.e47e613a.js" as="script"><link rel="preload" href="/blog/assets/js/45.8b9afaa6.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.9fb87017.js"><link rel="prefetch" href="/blog/assets/js/11.63aaef14.js"><link rel="prefetch" href="/blog/assets/js/12.e019bb4a.js"><link rel="prefetch" href="/blog/assets/js/13.1c374787.js"><link rel="prefetch" href="/blog/assets/js/14.7dd2d0df.js"><link rel="prefetch" href="/blog/assets/js/15.d8811cd0.js"><link rel="prefetch" href="/blog/assets/js/16.a38d8e19.js"><link rel="prefetch" href="/blog/assets/js/17.117a2a98.js"><link rel="prefetch" href="/blog/assets/js/18.371c8942.js"><link rel="prefetch" href="/blog/assets/js/19.15d09e1c.js"><link rel="prefetch" href="/blog/assets/js/20.9e905056.js"><link rel="prefetch" href="/blog/assets/js/21.446c5586.js"><link rel="prefetch" href="/blog/assets/js/22.4d439e5a.js"><link rel="prefetch" href="/blog/assets/js/23.f8ad91e6.js"><link rel="prefetch" href="/blog/assets/js/24.35816e40.js"><link rel="prefetch" href="/blog/assets/js/25.cdff3690.js"><link rel="prefetch" href="/blog/assets/js/26.089f725d.js"><link rel="prefetch" href="/blog/assets/js/27.4c872164.js"><link rel="prefetch" href="/blog/assets/js/28.d1265443.js"><link rel="prefetch" href="/blog/assets/js/29.925078bd.js"><link rel="prefetch" href="/blog/assets/js/3.72a686ca.js"><link rel="prefetch" href="/blog/assets/js/30.b7b5902a.js"><link rel="prefetch" href="/blog/assets/js/31.ac62ec6a.js"><link rel="prefetch" href="/blog/assets/js/32.2958757c.js"><link rel="prefetch" href="/blog/assets/js/33.ae6c0f2d.js"><link rel="prefetch" href="/blog/assets/js/34.377b1731.js"><link rel="prefetch" href="/blog/assets/js/35.2fb509dd.js"><link rel="prefetch" href="/blog/assets/js/36.eb9f9209.js"><link rel="prefetch" href="/blog/assets/js/37.b27d3c3a.js"><link rel="prefetch" href="/blog/assets/js/38.271e0c4b.js"><link rel="prefetch" href="/blog/assets/js/39.de1ad084.js"><link rel="prefetch" href="/blog/assets/js/40.466ae001.js"><link rel="prefetch" href="/blog/assets/js/41.897c631e.js"><link rel="prefetch" href="/blog/assets/js/42.88add21d.js"><link rel="prefetch" href="/blog/assets/js/43.d29ee2ff.js"><link rel="prefetch" href="/blog/assets/js/44.ef0cb4fd.js"><link rel="prefetch" href="/blog/assets/js/46.76ea1b82.js"><link rel="prefetch" href="/blog/assets/js/47.2ddee250.js"><link rel="prefetch" href="/blog/assets/js/48.158e7e08.js"><link rel="prefetch" href="/blog/assets/js/49.0d740e90.js"><link rel="prefetch" href="/blog/assets/js/5.82fd3435.js"><link rel="prefetch" href="/blog/assets/js/50.26935820.js"><link rel="prefetch" href="/blog/assets/js/51.48ceb76d.js"><link rel="prefetch" href="/blog/assets/js/52.dfbb1799.js"><link rel="prefetch" href="/blog/assets/js/53.ba5d8b67.js"><link rel="prefetch" href="/blog/assets/js/54.5d2efb6e.js"><link rel="prefetch" href="/blog/assets/js/55.95dd6cd2.js"><link rel="prefetch" href="/blog/assets/js/56.379957b5.js"><link rel="prefetch" href="/blog/assets/js/57.21bd2732.js"><link rel="prefetch" href="/blog/assets/js/58.aae6f881.js"><link rel="prefetch" href="/blog/assets/js/59.f86bd860.js"><link rel="prefetch" href="/blog/assets/js/6.ea1f7021.js"><link rel="prefetch" href="/blog/assets/js/60.3f2cd82d.js"><link rel="prefetch" href="/blog/assets/js/61.c28c6fb3.js"><link rel="prefetch" href="/blog/assets/js/62.c963f6e0.js"><link rel="prefetch" href="/blog/assets/js/63.69f83a15.js"><link rel="prefetch" href="/blog/assets/js/64.5f489592.js"><link rel="prefetch" href="/blog/assets/js/65.35087db0.js"><link rel="prefetch" href="/blog/assets/js/66.387fc335.js"><link rel="prefetch" href="/blog/assets/js/67.6c198395.js"><link rel="prefetch" href="/blog/assets/js/68.4e775b10.js"><link rel="prefetch" href="/blog/assets/js/69.ded5ba4b.js"><link rel="prefetch" href="/blog/assets/js/7.ac2b4da1.js"><link rel="prefetch" href="/blog/assets/js/70.35fa16fa.js"><link rel="prefetch" href="/blog/assets/js/71.01e2837c.js"><link rel="prefetch" href="/blog/assets/js/72.49952684.js"><link rel="prefetch" href="/blog/assets/js/73.d2cf1719.js"><link rel="prefetch" href="/blog/assets/js/74.8beffca0.js"><link rel="prefetch" href="/blog/assets/js/75.aecaf513.js"><link rel="prefetch" href="/blog/assets/js/76.b325f416.js"><link rel="prefetch" href="/blog/assets/js/8.815fcef8.js"><link rel="prefetch" href="/blog/assets/js/9.8408da1d.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.f4f9e44b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="theme-container" class="theme-container" data-v-cf326a2e><header class="navbar is-fixed is-visible invert" data-v-cf326a2e><a href="/blog/" class="home-link router-link-active"><span class="site-name"> $ cd /home/ </span></a> <div class="links"><nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/" class="nav-link ov-parent ov-hover"><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-43.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon ov-wrench ov-hover" style="font-size:1.2em;"><path d="M489.2 287.9h-27.4c-2.6 0-4.6 2-4.6 4.6v32h-36.6V146.2c0-2.6-2-4.6-4.6-4.6h-27.4c-2.6 0-4.6 2-4.6 4.6v32h-36.6v-32c0-2.6-2-4.6-4.6-4.6h-27.4c-2.6 0-4.6 2-4.6 4.6v32h-36.6v-32c0-6-8-4.6-11.7-4.6v-38c8.3-2 17.1-3.4 25.7-3.4 10.9 0 20.9 4.3 31.4 4.3 4.6 0 27.7-1.1 27.7-8v-60c0-2.6-2-4.6-4.6-4.6-5.1 0-15.1 4.3-24 4.3-9.7 0-20.9-4.3-32.6-4.3-8 0-16 1.1-23.7 2.9v-4.9c5.4-2.6 9.1-8.3 9.1-14.3 0-20.7-31.4-20.8-31.4 0 0 6 3.7 11.7 9.1 14.3v111.7c-3.7 0-11.7-1.4-11.7 4.6v32h-36.6v-32c0-2.6-2-4.6-4.6-4.6h-27.4c-2.6 0-4.6 2-4.6 4.6v32H128v-32c0-2.6-2-4.6-4.6-4.6H96c-2.6 0-4.6 2-4.6 4.6v178.3H54.8v-32c0-2.6-2-4.6-4.6-4.6H22.8c-2.6 0-4.6 2-4.6 4.6V512h182.9v-96c0-72.6 109.7-72.6 109.7 0v96h182.9V292.5c.1-2.6-1.9-4.6-4.5-4.6zm-288.1-4.5c0 2.6-2 4.6-4.6 4.6h-27.4c-2.6 0-4.6-2-4.6-4.6v-64c0-2.6 2-4.6 4.6-4.6h27.4c2.6 0 4.6 2 4.6 4.6v64zm146.4 0c0 2.6-2 4.6-4.6 4.6h-27.4c-2.6 0-4.6-2-4.6-4.6v-64c0-2.6 2-4.6 4.6-4.6h27.4c2.6 0 4.6 2 4.6 4.6v64z"/></svg>
+  Home
+</a></div><div class="nav-item"><a href="/blog/tags/" class="nav-link ov-parent ov-hover"><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-43.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon ov-wrench ov-hover" style="font-size:1.2em;"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0133.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 010 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>
+  Tags
+</a></div><div class="nav-item"><a href="/blog/links/" class="nav-link ov-parent ov-hover"><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-43.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon ov-wrench ov-hover" style="font-size:1.2em;"><path d="M305.45 462.59c7.391 7.298 6.188 20.097-3 25.004-77.714 41.802-176.726 29.91-242.344-35.709-65.602-65.603-77.51-164.523-35.692-242.331 4.891-9.095 17.69-10.298 25.003-3l116.812 116.813 27.394-27.394c-.688-2.61-1.594-5.001-1.594-7.814a32.004 32.004 0 1132.004 32.005c-2.797 0-5.204-.891-7.798-1.594l-27.41 27.41zm206.526-159.523a16.103 16.103 0 01-16.002 17.003H463.86a15.97 15.97 0 01-15.892-15.002C440.467 175.549 336.453 70.534 207.03 63.533a15.845 15.845 0 01-15.002-15.908V16.027A16.094 16.094 0 01209.03.024C372.255 8.62 503.475 139.841 511.976 303.067zm-96.012-.297a16.21 16.21 0 01-16.112 17.3h-32.207a16.069 16.069 0 01-15.893-14.705c-6.907-77.011-68.118-138.91-144.924-145.224a15.94 15.94 0 01-14.8-15.893v-32.114a16.134 16.134 0 0117.3-16.096c110.123 8.501 198.228 96.607 206.636 206.732z"/></svg>
+  Links
+</a></div><div class="nav-item"><a href="/blog/gongchenghua/vite.html" class="nav-link ov-parent ov-hover"><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-43.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon ov-wrench ov-hover" style="font-size:1.2em;"><path d="M489.2 287.9h-27.4c-2.6 0-4.6 2-4.6 4.6v32h-36.6V146.2c0-2.6-2-4.6-4.6-4.6h-27.4c-2.6 0-4.6 2-4.6 4.6v32h-36.6v-32c0-2.6-2-4.6-4.6-4.6h-27.4c-2.6 0-4.6 2-4.6 4.6v32h-36.6v-32c0-6-8-4.6-11.7-4.6v-38c8.3-2 17.1-3.4 25.7-3.4 10.9 0 20.9 4.3 31.4 4.3 4.6 0 27.7-1.1 27.7-8v-60c0-2.6-2-4.6-4.6-4.6-5.1 0-15.1 4.3-24 4.3-9.7 0-20.9-4.3-32.6-4.3-8 0-16 1.1-23.7 2.9v-4.9c5.4-2.6 9.1-8.3 9.1-14.3 0-20.7-31.4-20.8-31.4 0 0 6 3.7 11.7 9.1 14.3v111.7c-3.7 0-11.7-1.4-11.7 4.6v32h-36.6v-32c0-2.6-2-4.6-4.6-4.6h-27.4c-2.6 0-4.6 2-4.6 4.6v32H128v-32c0-2.6-2-4.6-4.6-4.6H96c-2.6 0-4.6 2-4.6 4.6v178.3H54.8v-32c0-2.6-2-4.6-4.6-4.6H22.8c-2.6 0-4.6 2-4.6 4.6V512h182.9v-96c0-72.6 109.7-72.6 109.7 0v96h182.9V292.5c.1-2.6-1.9-4.6-4.5-4.6zm-288.1-4.5c0 2.6-2 4.6-4.6 4.6h-27.4c-2.6 0-4.6-2-4.6-4.6v-64c0-2.6 2-4.6 4.6-4.6h27.4c2.6 0 4.6 2 4.6 4.6v64zm146.4 0c0 2.6-2 4.6-4.6 4.6h-27.4c-2.6 0-4.6-2-4.6-4.6v-64c0-2.6 2-4.6 4.6-4.6h27.4c2.6 0 4.6 2 4.6 4.6v64z"/></svg>
+  前端工程化
+</a></div><div class="nav-item"><a href="/blog/tool/" class="nav-link ov-parent ov-hover"><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-43.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon ov-wrench ov-hover" style="font-size:1.2em;"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0133.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 010 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>
+  工具
+</a></div><div class="nav-item"><a href="/blog/vue/" class="nav-link ov-parent ov-hover"><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-43.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon ov-wrench ov-hover" style="font-size:1.2em;"><path d="M305.45 462.59c7.391 7.298 6.188 20.097-3 25.004-77.714 41.802-176.726 29.91-242.344-35.709-65.602-65.603-77.51-164.523-35.692-242.331 4.891-9.095 17.69-10.298 25.003-3l116.812 116.813 27.394-27.394c-.688-2.61-1.594-5.001-1.594-7.814a32.004 32.004 0 1132.004 32.005c-2.797 0-5.204-.891-7.798-1.594l-27.41 27.41zm206.526-159.523a16.103 16.103 0 01-16.002 17.003H463.86a15.97 15.97 0 01-15.892-15.002C440.467 175.549 336.453 70.534 207.03 63.533a15.845 15.845 0 01-15.002-15.908V16.027A16.094 16.094 0 01209.03.024C372.255 8.62 503.475 139.841 511.976 303.067zm-96.012-.297a16.21 16.21 0 01-16.112 17.3h-32.207a16.069 16.069 0 01-15.893-14.705c-6.907-77.011-68.118-138.91-144.924-145.224a15.94 15.94 0 01-14.8-15.893v-32.114a16.134 16.134 0 0117.3-16.096c110.123 8.501 198.228 96.607 206.636 206.732z"/></svg>
+  vue3
+</a></div><div class="nav-item"><a href="/blog/react/" class="nav-link ov-parent ov-hover"><!---->
+  react
+</a></div><div class="nav-item"><a href="/blog/js/" class="nav-link ov-parent ov-hover"><!---->
+  javascript
+</a></div><div class="nav-item"><a href="/blog/css/" class="nav-link ov-parent ov-hover"><!---->
+  css
+</a></div><div class="nav-item"><a href="/blog/mianshi/" class="nav-link ov-parent ov-hover"><!---->
+  面试
+</a></div><div class="nav-item"><a href="/blog/other/" class="nav-link ov-parent ov-hover"><!---->
+  其他
+</a></div> <div class="nav-item"><a class="nav-link ov-parent ov-hover" style="cursor: pointer"><!---->
+      Search
+    </a></div></nav></div></header> <div class="sidebar-mask" data-v-cf326a2e></div> <aside class="sidebar" data-v-cf326a2e><div class="personal-info-wrapper" data-v-cf326a2e><div class="mobile-hero-avatar" data-v-cf326a2e><img src="/blogimg/avatar.jpg" alt="hero" data-v-cf326a2e></div> <p class="mobile-heading" data-v-cf326a2e>
+          ZShuai
+        </p> <div class="sns-wrapper" data-v-cf326a2e><a href="https://github.com/66njk" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" width="0" height="0" viewBox="0 0 0 0" fill="currentColor" class="icon-stack ov-icon" style="font-size:1.2em;"><!----> <svg aria-hidden="true" width="19.2" height="19.2" viewBox="-59.52 -43.52 599.04 599.04" fill="currentColor" class="icon-sns ov-icon ov-inverse" style="font-size:1.2em;"><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg></svg></a><a href="mailto:2927136497@qq.com" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" width="0" height="0" viewBox="0 0 0 0" fill="currentColor" class="icon-stack ov-icon" style="font-size:1.2em;"><!----> <svg aria-hidden="true" width="19.2" height="19.2" viewBox="-43.52 -43.52 599.04 599.04" fill="currentColor" class="icon-sns ov-icon ov-inverse" style="font-size:1.2em;"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg></svg></a>  <!----></div> <hr data-v-cf326a2e></div> <nav class="nav-links"><div class="nav-item"><a href="/blog/" class="nav-link ov-parent ov-hover"><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-43.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon ov-wrench ov-hover" style="font-size:1.2em;"><path d="M489.2 287.9h-27.4c-2.6 0-4.6 2-4.6 4.6v32h-36.6V146.2c0-2.6-2-4.6-4.6-4.6h-27.4c-2.6 0-4.6 2-4.6 4.6v32h-36.6v-32c0-2.6-2-4.6-4.6-4.6h-27.4c-2.6 0-4.6 2-4.6 4.6v32h-36.6v-32c0-6-8-4.6-11.7-4.6v-38c8.3-2 17.1-3.4 25.7-3.4 10.9 0 20.9 4.3 31.4 4.3 4.6 0 27.7-1.1 27.7-8v-60c0-2.6-2-4.6-4.6-4.6-5.1 0-15.1 4.3-24 4.3-9.7 0-20.9-4.3-32.6-4.3-8 0-16 1.1-23.7 2.9v-4.9c5.4-2.6 9.1-8.3 9.1-14.3 0-20.7-31.4-20.8-31.4 0 0 6 3.7 11.7 9.1 14.3v111.7c-3.7 0-11.7-1.4-11.7 4.6v32h-36.6v-32c0-2.6-2-4.6-4.6-4.6h-27.4c-2.6 0-4.6 2-4.6 4.6v32H128v-32c0-2.6-2-4.6-4.6-4.6H96c-2.6 0-4.6 2-4.6 4.6v178.3H54.8v-32c0-2.6-2-4.6-4.6-4.6H22.8c-2.6 0-4.6 2-4.6 4.6V512h182.9v-96c0-72.6 109.7-72.6 109.7 0v96h182.9V292.5c.1-2.6-1.9-4.6-4.5-4.6zm-288.1-4.5c0 2.6-2 4.6-4.6 4.6h-27.4c-2.6 0-4.6-2-4.6-4.6v-64c0-2.6 2-4.6 4.6-4.6h27.4c2.6 0 4.6 2 4.6 4.6v64zm146.4 0c0 2.6-2 4.6-4.6 4.6h-27.4c-2.6 0-4.6-2-4.6-4.6v-64c0-2.6 2-4.6 4.6-4.6h27.4c2.6 0 4.6 2 4.6 4.6v64z"/></svg>
+  Home
+</a></div><div class="nav-item"><a href="/blog/tags/" class="nav-link ov-parent ov-hover"><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-43.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon ov-wrench ov-hover" style="font-size:1.2em;"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0133.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 010 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>
+  Tags
+</a></div><div class="nav-item"><a href="/blog/links/" class="nav-link ov-parent ov-hover"><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-43.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon ov-wrench ov-hover" style="font-size:1.2em;"><path d="M305.45 462.59c7.391 7.298 6.188 20.097-3 25.004-77.714 41.802-176.726 29.91-242.344-35.709-65.602-65.603-77.51-164.523-35.692-242.331 4.891-9.095 17.69-10.298 25.003-3l116.812 116.813 27.394-27.394c-.688-2.61-1.594-5.001-1.594-7.814a32.004 32.004 0 1132.004 32.005c-2.797 0-5.204-.891-7.798-1.594l-27.41 27.41zm206.526-159.523a16.103 16.103 0 01-16.002 17.003H463.86a15.97 15.97 0 01-15.892-15.002C440.467 175.549 336.453 70.534 207.03 63.533a15.845 15.845 0 01-15.002-15.908V16.027A16.094 16.094 0 01209.03.024C372.255 8.62 503.475 139.841 511.976 303.067zm-96.012-.297a16.21 16.21 0 01-16.112 17.3h-32.207a16.069 16.069 0 01-15.893-14.705c-6.907-77.011-68.118-138.91-144.924-145.224a15.94 15.94 0 01-14.8-15.893v-32.114a16.134 16.134 0 0117.3-16.096c110.123 8.501 198.228 96.607 206.636 206.732z"/></svg>
+  Links
+</a></div><div class="nav-item"><a href="/blog/gongchenghua/vite.html" class="nav-link ov-parent ov-hover"><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-43.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon ov-wrench ov-hover" style="font-size:1.2em;"><path d="M489.2 287.9h-27.4c-2.6 0-4.6 2-4.6 4.6v32h-36.6V146.2c0-2.6-2-4.6-4.6-4.6h-27.4c-2.6 0-4.6 2-4.6 4.6v32h-36.6v-32c0-2.6-2-4.6-4.6-4.6h-27.4c-2.6 0-4.6 2-4.6 4.6v32h-36.6v-32c0-6-8-4.6-11.7-4.6v-38c8.3-2 17.1-3.4 25.7-3.4 10.9 0 20.9 4.3 31.4 4.3 4.6 0 27.7-1.1 27.7-8v-60c0-2.6-2-4.6-4.6-4.6-5.1 0-15.1 4.3-24 4.3-9.7 0-20.9-4.3-32.6-4.3-8 0-16 1.1-23.7 2.9v-4.9c5.4-2.6 9.1-8.3 9.1-14.3 0-20.7-31.4-20.8-31.4 0 0 6 3.7 11.7 9.1 14.3v111.7c-3.7 0-11.7-1.4-11.7 4.6v32h-36.6v-32c0-2.6-2-4.6-4.6-4.6h-27.4c-2.6 0-4.6 2-4.6 4.6v32H128v-32c0-2.6-2-4.6-4.6-4.6H96c-2.6 0-4.6 2-4.6 4.6v178.3H54.8v-32c0-2.6-2-4.6-4.6-4.6H22.8c-2.6 0-4.6 2-4.6 4.6V512h182.9v-96c0-72.6 109.7-72.6 109.7 0v96h182.9V292.5c.1-2.6-1.9-4.6-4.5-4.6zm-288.1-4.5c0 2.6-2 4.6-4.6 4.6h-27.4c-2.6 0-4.6-2-4.6-4.6v-64c0-2.6 2-4.6 4.6-4.6h27.4c2.6 0 4.6 2 4.6 4.6v64zm146.4 0c0 2.6-2 4.6-4.6 4.6h-27.4c-2.6 0-4.6-2-4.6-4.6v-64c0-2.6 2-4.6 4.6-4.6h27.4c2.6 0 4.6 2 4.6 4.6v64z"/></svg>
+  前端工程化
+</a></div><div class="nav-item"><a href="/blog/tool/" class="nav-link ov-parent ov-hover"><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-43.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon ov-wrench ov-hover" style="font-size:1.2em;"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0133.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 010 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>
+  工具
+</a></div><div class="nav-item"><a href="/blog/vue/" class="nav-link ov-parent ov-hover"><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-43.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon ov-wrench ov-hover" style="font-size:1.2em;"><path d="M305.45 462.59c7.391 7.298 6.188 20.097-3 25.004-77.714 41.802-176.726 29.91-242.344-35.709-65.602-65.603-77.51-164.523-35.692-242.331 4.891-9.095 17.69-10.298 25.003-3l116.812 116.813 27.394-27.394c-.688-2.61-1.594-5.001-1.594-7.814a32.004 32.004 0 1132.004 32.005c-2.797 0-5.204-.891-7.798-1.594l-27.41 27.41zm206.526-159.523a16.103 16.103 0 01-16.002 17.003H463.86a15.97 15.97 0 01-15.892-15.002C440.467 175.549 336.453 70.534 207.03 63.533a15.845 15.845 0 01-15.002-15.908V16.027A16.094 16.094 0 01209.03.024C372.255 8.62 503.475 139.841 511.976 303.067zm-96.012-.297a16.21 16.21 0 01-16.112 17.3h-32.207a16.069 16.069 0 01-15.893-14.705c-6.907-77.011-68.118-138.91-144.924-145.224a15.94 15.94 0 01-14.8-15.893v-32.114a16.134 16.134 0 0117.3-16.096c110.123 8.501 198.228 96.607 206.636 206.732z"/></svg>
+  vue3
+</a></div><div class="nav-item"><a href="/blog/react/" class="nav-link ov-parent ov-hover"><!---->
+  react
+</a></div><div class="nav-item"><a href="/blog/js/" class="nav-link ov-parent ov-hover"><!---->
+  javascript
+</a></div><div class="nav-item"><a href="/blog/css/" class="nav-link ov-parent ov-hover"><!---->
+  css
+</a></div><div class="nav-item"><a href="/blog/mianshi/" class="nav-link ov-parent ov-hover"><!---->
+  面试
+</a></div><div class="nav-item"><a href="/blog/other/" class="nav-link ov-parent ov-hover"><!---->
+  其他
+</a></div> <div class="nav-item"><a class="nav-link ov-parent ov-hover" style="cursor: pointer"><!---->
+      Search
+    </a></div></nav> <ul class="sidebar-links"><li class="sidebar-header"><a href="/blog/gongchenghua/vite.html" class="sidebar-link">vite</a></li><li class="sidebar-header"><a href="/blog/gongchenghua/openapi.html" class="sidebar-link">自动生成 api</a></li><li class="sidebar-header"><a href="/blog/gongchenghua/pwa.html" class="sidebar-link">pwa</a></li><li class="sidebar-header"><a href="/blog/gongchenghua/小程序.html" class="sidebar-link">小程序</a></li><li class="sidebar-header"><a href="/blog/gongchenghua/qiankun.html" class="sidebar-link">qiankun</a></li><li class="sidebar-header"><a href="/blog/gongchenghua/createReactApp.html" class="sidebar-link">createReactApp</a></li></ul> </aside> <div class="content" data-v-cf326a2e><main class="page"><div class="doc-header" data-v-4d8a1159> <div class="header-content" data-v-4d8a1159><div class="tags" data-v-4d8a1159><span class="tag" data-v-4d8a1159>
+        Docker
+      </span><span class="tag" data-v-4d8a1159>
+        Linux
+      </span></div> <h1 class="title" data-v-4d8a1159>
+      从 0 开始学 docker
+    </h1> <!----> <div class="icons" data-v-4d8a1159><div class="icon" data-v-4d8a1159><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-75.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon" style="font-size:1.2em;" data-v-4d8a1159><path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"/></svg> <span data-v-4d8a1159>ZShuai</span></div> <div class="icon" data-v-4d8a1159><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-75.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon" style="font-size:1.2em;" data-v-4d8a1159><path d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z"/></svg> <span data-v-4d8a1159>2022-08-31</span></div> <div class="icon" data-v-4d8a1159><svg aria-hidden="true" width="19.2" height="19.2" viewBox="0 0 24 24" fill="currentColor" class="ov-icon" style="font-size:1.2em;" data-v-4d8a1159><path fill="none" d="M0 0h24v24H0z"/><path d="M17.618 5.968l1.453-1.453 1.414 1.414-1.453 1.453a9 9 0 11-1.414-1.414zM12 20a7 7 0 100-14 7 7 0 000 14zM11 8h2v6h-2V8zM8 1h8v2H8V1z"/></svg> <span data-v-4d8a1159>2 min</span></div></div></div></div> <div class="theme-content content__default"><div class="language- extra-class"><pre class="language-text"><code>dockerHub:  
+username:waynewang1
+Email:15295502569@163.com
+password：wsf123456
+</code></pre></div><h4 id="前言"><a href="#前言" class="header-anchor">#</a> 前言</h4> <hr> <p>先来看一段简单的基础架构历史</p> <ul><li>90年代是传统服务器，在一些公司都会买小型机、塔式服务器、刀片式服务器，一个服务器上跑一个服务（一种应用），缺点是大量服务器资源被浪费；</li> <li>2000年开始流行虚拟化技术，代表是VMware和VirtualBox软件，在一个服务器上可以模拟出多台虚拟服务器，缺点是占有服务器资源较多，需要虚拟内存和CPU，占有服务器大量资源；</li> <li>2005年-2015年云技术Cloud开始流行，这个时候产生了很多大型云服务商，国际的有亚马逊、国内的阿里云，都是这个时期成长起来的公司。云技术也为容器技术提供了良好的生长土壤。</li> <li>2015年以后Container（容器）时代，现在无论是国际还是国内大厂，无一例外的都在使用容器技术。那最为出名的就是Docker。</li></ul> <table><thead><tr><th>Docker</th> <th>面向对象</th></tr></thead> <tbody><tr><td>容器</td> <td>对象</td></tr> <tr><td>镜像</td> <td>类</td></tr></tbody></table> <h4 id="一、容器技术-container-的概念"><a href="#一、容器技术-container-的概念" class="header-anchor">#</a> 一、容器技术（container）的概念</h4> <div class="language-tex extra-class"><pre class="language-tex"><code>Linux Container容器技术的诞生(2008年)就解决了IT世界里“集装箱运输”的问题。Linux Container（简称LXC），它是一种内核轻量级的操作系统层虚拟化技术。Linux Container主要由Namespace和Cgroup两大机制保证实现。
+</code></pre></div><blockquote><p>用我的话解释一下，其实**容器就想一个打包工具，打包的不仅是你的程序，也包括运行环境。**就好比你把你的开发主机和开发程序完全复制了一份，别人拿到后就不需要搭建环境，也不需要根据环境进行调试，直接就可以运行了。</p></blockquote> <h4 id="二、安装-docker"><a href="#二、安装-docker" class="header-anchor">#</a> 二、安装 docker</h4> <div class="language- extra-class"><pre class="language-text"><code>可以直接使用curl命令下载这个shell脚本
+curl -fsSL get.docker.com -o get-docker.sh
+
+可以使用ls命令查看一下。如果已经存在了，就可以使用sh命令，直接执行这个脚本了。
+sh get-docker.sh
+安装过程大概要3-4分钟左右，也是主要看网速和服务器性能。
+
+安装完成后，通过docker version命令检查是否安装成功。
+这时候要使用systemctl start命令，开启Docker服务端
+sudo systemctl start docker
+开启后，再使用sudo docker version来看一下，如果有类似下面的信息，说明已经安装成功了。
+</code></pre></div><h4 id="二、容器相关命令"><a href="#二、容器相关命令" class="header-anchor">#</a> 二、容器相关命令</h4> <div class="language- extra-class"><pre class="language-text"><code>在服务器启动 docker
+systemctl daemon-reload   
+systemctl restart docker.service
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>docker search mysql 查找容器
+
+1.创建容器命令：
+docker container run &lt; image name &gt;   eg：docker container run nginx
+
+2.查看容器列表
+docker container ls    ||		docker container ls -a
+
+3.停止容器
+docker container stop &lt;name or ID&gt;
+
+4.删除容器
+docker container rm &lt;name or ID&gt;
+
+容器的创建：docker container run nginx 简写方法 docker run nginx
+容器的列出(up): docker container ls 简写方法 docker ps
+容器的列出（up和exit）：docker container ls -a 简写方法 docker ps -a
+容器的停止 ： docker container stop 简写方法 docker stop
+容器的删除：docker container rm 简写方法 docker rm
+
+
+只查看现在所有容器的ID
+docker container ps -aq
+
+停止所有容器
+docker container stop $(docker container ps -qa)
+删除所有容器
+docker container rm $(docker container ps -aq)
+</code></pre></div><p>端口映射：(nginx 默认端口 80)</p> <div class="language- extra-class"><pre class="language-text"><code>docker container run -p 80:80 nginx   等待项目启动后，打开浏览器窗口，在地址栏输入127.0.0.1，就可以打开nginx的默认网址
+docker container run -p 90:80 nginx		等待项目启动后，打开浏览器窗口，在地址栏输入127.0.0.1:90，就可以打开nginx的默认网址
+
+attached模式在前台运行，detached模式在后台运行。
+attached模式更适用于容器和程序的调试阶段。  detached模式在后台运行这种比较适合在生产环境中运行，停掉和删除容器都需要使用Shell脚本的形式
+
+detached模式的开启方法，就是加一个参数-d或者--detach。
+docker run -d -p 80:80 nginx
+
+在运行之后，也有需要调试的时候，Docker提供了两个模式间的转换。比如现在要把detached模式的容器，改为attched模式。
+docker  attach &lt;ID or Image Name&gt;
+
+查看后台日志
+docker container logs &lt;ID or Image name&gt;
+
+如果想动态一直跟踪日志，可以在命令上加入一个-f。
+docker container logs -f &lt;ID or Image name&gt;
+
+如果想关闭日志跟踪模式，直接用快捷键Ctrl+C就可以结束掉了。(mac系统中也是 ctrl+C，不是 command+C)
+
+detached下的交互模式:
+先用detached模式创建一个nginx镜像的容器。
+docker container run -d -p 90:80 nginx
+直接通过下面的命令就可以进入到交互模式下了。(这是我们以后要经常使用的一个命令)
+docker exec -it &lt;ID or Image name&gt; sh 
+exec是执行的意思，-it交互模式 ， sh交互的方式，用shell脚本进行交互.  整个命令的意思是：用shell脚本的方式执行交互模式。
+进入后可以使用ls来查看容器的文件系统。这种模式的优点是，再使用exit退出后，服务并不会停止，而只是退出了交互模式。可以自己尝试一下退出，然后使用docker container ls -a来查看一下容器的状态，你会发现依然是 up状态。
+</code></pre></div><p>三、镜像相关命令</p> <p>获取镜像的三个途径：</p> <ul><li>从网络社区直接拉取，在Docker里这种社区叫做<code>Registry</code>(登记处)的意思。（pull from registry）</li> <li>从Dockerfile构建一个镜像，这种像是DIY一个镜像，但是整个构建过程是需要联网，因为需要西在基础镜像，然后根据基础镜像进行构建（build from Dockerfile）。</li> <li>自有文件的导入，可以从本地导入已经构建好的镜像文件，在没有网络的时候可以用。这个文件是通过 已有的镜像导出来的压缩包，然后就可以进行使用了。</li></ul> <div class="language- extra-class"><pre class="language-text"><code>拉取镜像命令：
+docker image pull mysql
+查看镜像列表：
+docker image ls
+查看具体镜像信息：
+docker image  inspect &lt;IMAGE ID&gt;
+删除镜像：
+docker image rm &lt;Image ID&gt;
+
+导出镜像:
+docker image save
+在导出之前，你最好到一个好找的路径下面，比如我这里就选择了D盘，使用mkdir命令创建一个文件夹，进入文件后输入下面的命令。比如现在要导出镜像中的busybox镜像，可以这样写命令。
+docker image save mysql:latest -o mysql.image		
+save是导出/保存的意思，busybox:latest是镜像名称+版本号， -o代表输出，mysql.image是导出后镜像的名字。
+命令执行完成后，可以看到在执行命令所在的目录下就会多出一个mysql.image的文件，这就是刚才导出的镜像了。
+
+导入镜像：
+先删除掉本机已有的busybox镜像。
+docker image rm mysql
+删除后直接导入镜
+docker image load -i ./mysql.image
+执行完命令之后，再使用docker image ls命令查看，mysql镜像已经回来了。
+</code></pre></div><h5 id="初识dockerfile"><a href="#初识dockerfile" class="header-anchor">#</a> 初识Dockerfile</h5> <p>通过Dockerfile构建镜像虽然比较麻烦，这是最常使用的一种方式，必须掌握。Dockerfile是一个包含用于组合映像的命令的文本文档。可以使用在命令行中调用任何命令。 Docker通过读取Dockerfile中的指令自动生成映像。</p> <p>可以简单总结为下面三点：</p> <ul><li>Dockerfile是用于构建docker镜像的文件</li> <li>Dockerfile里包含了构建镜像所需的”指令“</li> <li>Dockerfile有其特定的语法规则（重要学习）</li></ul> <div class="language- extra-class"><pre class="language-text"><code>docker image build -t &lt;Name:tag&gt; &lt;file path&gt;
+</code></pre></div><h4 id="docker-volume相关命令"><a href="#docker-volume相关命令" class="header-anchor">#</a> Docker volume相关命令</h4> <div class="language- extra-class"><pre class="language-text"><code>
+</code></pre></div><h5 id="最后"><a href="#最后" class="header-anchor">#</a> 最后</h5> <div class="language- extra-class"><pre class="language-text"><code>Docker可以干嘛？
+
+- 将一整套环境打包封装成镜像，**无需重复配置环境**，解决环境带来的种种问题。
+- Docker容器间是进程隔离的，谁也不会影响谁。
+
+
+一、容器技术docker的思考方式是，将环境一起打包镜像，避免部署时的环境问题。
+二、dockerfile记录镜像的制作步骤
+三、镜像、容器、仓库的概念可以类比代码、进程、github
+</code></pre></div><p>docker build -f Dockerfile.copy -t app .    根基 dockerfile 文件打包成镜像  名字叫 app</p> <p>docker images  查看所有镜像 ，会有 app</p> <p>运行镜像成一个容器</p> <p>docker run -id -p 3030:3000 app</p> <p>访问 localhost：3030  即可</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">2/7/2023, 7:32:57 PM</span></div></footer> <!----> <!----> <!----></main></div> <div class="search-page" data-v-cf326a2e><span class="search-close"><svg aria-hidden="true" width="34.56" height="34.56" viewBox="-75.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon" style="font-size:2.16em;"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg></span> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div></div> <div class="menu-btn-container" data-v-182018f1 data-v-cf326a2e><div class="menu-btn-wrapper" data-v-182018f1><div class="menu-btn" data-v-182018f1><div class="menu-btn-icon" style="display:;" data-v-182018f1><span data-v-182018f1></span> <span data-v-182018f1></span> <span data-v-182018f1></span></div> <div class="menu-text" style="display:none;" data-v-182018f1>
+        0
+      </div> <svg class="menu-svg" data-v-182018f1><circle cx="50%" cy="50%" r="48%" class="menu-border" style="stroke-dasharray:0% 314.15926%;" data-v-182018f1></circle></svg></div> <div class="menu-btn-child-wrapper" data-v-182018f1><a role="button" aria-label="Toggle light" title="Toggle light" class="toggle-mode menu-btn-child" data-v-182018f1><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-43.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon" style="font-size:1.2em;"><path d="M224 96l16-32 32-16-32-16-16-32-16 32-32 16 32 16 16 32zM80 160l26.66-53.33L160 80l-53.34-26.67L80 0 53.34 53.33 0 80l53.34 26.67L80 160zm352 128l-26.66 53.33L352 368l53.34 26.67L432 448l26.66-53.33L512 368l-53.34-26.67L432 288zm70.62-193.77L417.77 9.38C411.53 3.12 403.34 0 395.15 0c-8.19 0-16.38 3.12-22.63 9.38L9.38 372.52c-12.5 12.5-12.5 32.76 0 45.25l84.85 84.85c6.25 6.25 14.44 9.37 22.62 9.37 8.19 0 16.38-3.12 22.63-9.37l363.14-363.15c12.5-12.48 12.5-32.75 0-45.24zM359.45 203.46l-50.91-50.91 86.6-86.6 50.91 50.91-86.6 86.6z"/></svg></a> <div class="menu-btn-child" data-v-182018f1><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-75.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon" style="font-size:1.2em;" data-v-182018f1><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg></div> <div class="menu-btn-child" data-v-182018f1><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-75.52 -43.52 599.04 599.04" fill="currentColor" class="ov-icon" style="font-size:1.2em;" data-v-182018f1><path d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z"/></svg></div> <!----> <div class="menu-btn-child menu-btn-sidebar" data-v-182018f1><svg aria-hidden="true" width="19.2" height="19.2" viewBox="-1.6 -1.6 19.2 19.2" fill="currentColor" class="ov-icon" style="font-size:1.2em;" data-v-182018f1><path d="M14 2a1 1 0 011 1v10a1 1 0 01-1 1H2a1 1 0 01-1-1V3a1 1 0 011-1h12zM2 1a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V3a2 2 0 00-2-2H2z"/><path d="M3 4a1 1 0 011-1h2a1 1 0 011 1v8a1 1 0 01-1 1H4a1 1 0 01-1-1V4z"/></svg></div></div></div></div> <!----></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.0e1b1ffb.js" defer></script><script src="/blog/assets/js/4.7034fd5a.js" defer></script><script src="/blog/assets/js/1.e47e613a.js" defer></script><script src="/blog/assets/js/45.8b9afaa6.js" defer></script>
+  </body>
+</html>
