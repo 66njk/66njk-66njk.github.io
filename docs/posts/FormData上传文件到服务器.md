@@ -1,7 +1,7 @@
 ---
 title: FormData上传文件到服务器
 date: 2022-08-29
-header_img: https://api.vvhan.com/api/view
+header_img: https://tuapi.eees.cc/api.php/?category=biying
 headerMask: rgba(40, 57, 101, .4)
 tags:
   - FormData
@@ -10,7 +10,7 @@ tags:
 
 #### 后端配置
 
-------
+---
 
 上传文件一定是 post 请求 , 这里我们使用 koa 实现一个简易的 post 请求, 并且让获取前端发来的 formdata 数据 并进行一些简易的处理 ;
 
@@ -40,7 +40,7 @@ app.listen(3000);
 
 #### 前端实现单文件上传
 
-------
+---
 
 前端这里使用 FormData 对象和 XMLHttpRequest 对象来实现文件上传
 
@@ -61,7 +61,7 @@ document.querySelector('button').onclick = function () {
     let res = JSON.parse(xhr.responseText);
     console.log(res);
   }
-  
+
   let form = new FormData();
   form.append('image', file); // 对应 key value
   xhr.send(form);
@@ -72,7 +72,7 @@ document.querySelector('button').onclick = function () {
 
 #### 单文件的上传速度与进度条
 
-------
+---
 
 html 优化部分 : 这里进度条, 我们就根据 html5 原生的 progress 标签来实现 ;
 
@@ -84,11 +84,11 @@ html 优化部分 : 这里进度条, 我们就根据 html5 原生的 progress �
 <button>点击上传</button>
 ```
 
-js 铺垫 ; 这里如果想要知道上传的进度和当前下载的速度,  我们肯定要办到下面一些事情 ;
+js 铺垫 ; 这里如果想要知道上传的进度和当前下载的速度, 我们肯定要办到下面一些事情 ;
 
 - 上传文件时的状态监控
 
-`xhr.upload` 下面有文件上传时的钩子,  我们可以利用这些钩子函数实现进度条的监控
+`xhr.upload` 下面有文件上传时的钩子, 我们可以利用这些钩子函数实现进度条的监控
 
 [ https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest/upload](https://link.juejin.cn?target=https%3A%2F%2Fdeveloper.mozilla.org%2Fzh-CN%2Fdocs%2FWeb%2FAPI%2FXMLHttpRequest%2Fupload)
 
@@ -109,10 +109,10 @@ document.querySelector('button').onclick = function () {
     let res = JSON.parse(xhr.responseText);
     console.log(res);
   }
-  
+
   let form = new FormData();
   form.append('image', file); // 对应 key value
-  
+
   xhr.upload.onloadstart = function () {
     // 开始上传钩子
     startTime = new Date().getTime();
@@ -124,14 +124,14 @@ document.querySelector('button').onclick = function () {
    let percent = (event.loaded / event.total * 100).toFixed(0);
    document.querySelector('progress').value = percent;
    document.querySelector('.percent').innerHTML = percent + ' %';
-   
+
    let currentTime = new Date().getTime();
    let dtime = (currentTime - startTime) / 1000; // 时间差 s
    startTime = new Date().getTime(); // 计算完成后重新获取时间
-   
+
    let dsize = event.loaded - startSize; // 大小差 b
    startSize = event.loaded; // 计算完成后重新获取带下
-   
+
    let speed = dsize / dtime; // 速度
    let unit = 'b/s';  // 单位
    // 单位进制计算
@@ -143,7 +143,7 @@ document.querySelector('button').onclick = function () {
      speed = speed / 1024;
      unit = 'mb/s';
    }
-   
+
    document.querySelector('.speed').innerHTML = speed.toFixed(2) + unit;
   }
   // 上传完成后重置 进度条等
@@ -158,7 +158,7 @@ document.querySelector('button').onclick = function () {
 
 #### axios 单文件上传带进度条
 
-------
+---
 
 axios 中监控进度, 通过 onUploadProgress 钩子来监控进度
 
@@ -177,4 +177,3 @@ axios.post('/upload', form, {
   console.log(res)
 });
 ```
-

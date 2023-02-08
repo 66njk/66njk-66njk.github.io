@@ -2,9 +2,9 @@
 title: Github Actions 部署前端应用  # 博客标题（必须）
 subtitle: 使用 Github Actions 自动部署应用到 Github Pages  # 博客副标题（可选）
 date: 2022-08-21  # 博客日期，会显示在文章头部（可选）
-author: wayne # 博客作者（可选，不填的话会使用 `themeConfig.personalInfo.name`）
+ # 博客作者（可选，不填的话会使用 `themeConfig.personalInfo.name`）
 # header_style: image  # 是否在博客中显示封面图：`image`（显示） / `text`（不显示）（可选，默认为 `text`）
-header_img: https://api.vvhan.com/api/view
+header_img: https://api.lho.cc/s/t/tpfj.php
   # 博客封面图（必须，即使上一项选了 `text`，图片也需要在首页显示）
 header_mask: rgba(40, 57, 101, .4)  # 封面图遮罩（可选）
 catalog: true  # 是否启用右侧目录：false / true（可选，默认为 false）

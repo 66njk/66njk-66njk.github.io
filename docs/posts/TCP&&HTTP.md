@@ -2,11 +2,10 @@
 title: TCP&&HTTP  # 博客标题（必须）
 subtitle: 面试官问我：一个 TCP 连接可以发多少个 HTTP 请求？我竟然回答不上来...  # 博客副标题（可选）
 date: 2022-06-24  # 博客日期，会显示在文章头部（可选）
-author: wayne # 博客作者（可选，不填的话会使用 `themeConfig.personalInfo.name`）
+ # 博客作者（可选，不填的话会使用 `themeConfig.personalInfo.name`）
 header_img: https://api.vvhan.com/api/view
 headerMask: rgba(40, 57, 101, .4)
 tags:
-
   - Docker
   - Clash
 ---

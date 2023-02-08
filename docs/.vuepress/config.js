@@ -120,15 +120,15 @@ module.exports = {
           mask: "rgba(40, 57, 101, .4)",
         },
         {
-          path: "/img/home-bg/4.jpeg",
+          path: "/img/home-bg/4.jpg",
           mask: "rgba(40, 57, 101, .4)",
         },
         {
-          path: "/img/home-bg/5.jpeg",
+          path: "/img/home-bg/5.jpg",
           mask: "rgba(40, 57, 101, .4)",
         },
         {
-          path: "/img/home-bg/7.jpeg",
+          path: "/img/home-bg/7.jpg",
           mask: "rgba(40, 57, 101, .4)",
         },
       ],

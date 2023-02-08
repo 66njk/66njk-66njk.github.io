@@ -2,9 +2,9 @@
 title: JS原型链 # 博客标题（必须）
 subtitle: 原型链是JS的主要继承方式 # 博客副标题（可选）
 date: 2022-04-21 # 博客日期，会显示在文章头部（可选）
-author: wayne # 博客作者（可选，不填的话会使用 `themeConfig.personalInfo.name`）
+ # 博客作者（可选，不填的话会使用 `themeConfig.personalInfo.name`）
 # header_style: image  # 是否在博客中显示封面图：`image`（显示） / `text`（不显示）（可选，默认为 `text`）
-header_img: https://api.vvhan.com/api/view # 博客封面图（必须，即使上一项选了 `text`，图片也需要在首页显示）
+header_img: https://api.ixiaowai.cn/gqapi/gqapi.php # 博客封面图（必须，即使上一项选了 `text`，图片也需要在首页显示）
 header_mask: rgba(40, 57, 101, .4) # 封面图遮罩（可选）
 catalog: true # 是否启用右侧目录：false / true（可选，默认为 false）
 ---
