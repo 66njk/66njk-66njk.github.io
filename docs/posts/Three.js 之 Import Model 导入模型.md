@@ -1,7 +1,7 @@
 ---
 title: Three.js 之 Import Model 导入模型
 date: 2021-06-14
-header_img: https://tuapi.eees.cc/api.php/?category=fengjing
+header_img: https://api.vvhan.com/api/view
 headerMask: rgba(40, 57, 101, .4)
 tags:
   - Three.js

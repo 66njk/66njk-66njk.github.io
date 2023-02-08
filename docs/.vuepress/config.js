@@ -175,7 +175,7 @@ module.exports = {
     },
     comment: {
       platform: "github",
-      owner: "109306201", // 用于放评论的仓库的拥有者 ID
+      owner: "66njk", // 用于放评论的仓库的拥有者 ID
       repo: "comments", // 用于放评论的仓库名
       clientId: "acb0866a678cf5d87167", // OAuth App Client ID
       clientSecret: "72bbe1249299976fd299ed0a04398790f3ca6d19", // OAuth App Client Secret
