@@ -1,6 +1,7 @@
 ---
 layout: Post
 title: Three.js 之 炫酷的 3D Text
+subtitle: 学习 3D Text，并做一个炫酷的 3D Text 展示页面。
 date: 2021-07-10
 header_img: https://api.vvhan.com/api/view
 headerMask: rgba(40, 57, 101, .4)

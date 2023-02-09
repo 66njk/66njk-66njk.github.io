@@ -1,6 +1,7 @@
 ---
 layout: Post
 title: Three.js 之 realistic render 真实渲染
+subtitle:  汉堡模型导入到了 Three.js 的场景中了，但是颜色效果很奇怪。为了让它渲染的更真实，我们需要做一些额外的操作，接下来就一起看看吧~
 date: 2021-08-25
 header_img: https://gw.alicdn.com/imgextra/i1/O1CN01U8hkPS23CLz1bMesk_!!6000000007219-2-tps-130-130.png
 headerMask: rgba(40, 57, 101, .4)

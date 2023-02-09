@@ -1,6 +1,7 @@
 ---
 layout: Post
 title: Three.js 之 Physics 物理引擎
+subtitle: 在 WebGL 里使用物理引擎是非常棒的一种体验，人们会非常享受与这些物体产生物理效果，例如重力、弹性、加速度、摩擦力、碰撞等。有很多方式实现物理效果.
 date: 2021-10-10
 header_img: https://gw.alicdn.com/imgextra/i2/O1CN019gu0Pt1dAMENm85xm_!!6000000003695-2-tps-1131-612.png
 headerMask: rgba(40, 57, 101, .4)

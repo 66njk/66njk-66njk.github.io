@@ -1,6 +1,7 @@
 ---
 layout: Post
 title: Three.js 之 Geometry 几何体
+subtitle: Threejs 中几何体的基类是 `BufferGeometry`，而 BufferGeometry 是面片、线或点几何体的有效表述。
 date: 2021-06-5
 header_img: https://api.lho.cc/s/t/tpfj.php
 headerMask: rgba(40, 57, 101, .4)

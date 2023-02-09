@@ -1,6 +1,7 @@
 ---
 layout: Post
 title: Three.js 之 Particles 粒子效果
+subtitle: 听到粒子特效，是不是无比期待？可以用它实现非常多的效果如星空、烟雾、雨、灰尘、火等。
 date: 2021-08-18
 header_img: https://api.lho.cc/s/t/tpfj.php
 headerMask: rgba(40, 57, 101, .4)

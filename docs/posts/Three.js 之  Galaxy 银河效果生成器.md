@@ -1,6 +1,7 @@
 ---
 layout: Post
 title: Three.js 之 Galaxy 银河效果生成器
+subtitle: 我们学习一下如何使用粒子，本节将开发一个银河生成器，使用粒子效果生成各种各样的银河效果。
 date: 2021-10-11
 header_img: https://api.ixiaowai.cn/gqapi/gqapi.php
 headerMask: rgba(40, 57, 101, .4)

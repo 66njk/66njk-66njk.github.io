@@ -1,6 +1,7 @@
 ---
 layout: Post
 title: Three.js 之 Raycaster 光线投射
+subtitle: 光线投射可以发射一个特定方向的射线，来检测是否有物体与这个射线相交。
 date: 2021-09-21
 header_img: https://api.vvhan.com/api/view
 headerMask: rgba(40, 57, 101, .4)

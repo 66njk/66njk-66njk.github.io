@@ -1,6 +1,7 @@
 ---
 layout: Post
 title: Three.js 之 Light 光
+subtitle: 我们之前学习了简单的添加光源到场景中。接下来就详细讲讲各种各样的光源、参数以及如何使用。
 date: 2021-09-09
 header_img: https://gw.alicdn.com/imgextra/i3/O1CN018KnWPH1w3Sxe63JeC_!!6000000006252-2-tps-1138-503.png
 headerMask: rgba(40, 57, 101, .4)

@@ -11,7 +11,12 @@ import {
   OiRepo,
   OiGitCompare,
   RiRedditLine,
-} from 'oh-vue-icons/icons'
+  FaVuejs,
+  CoReact,
+  CoWebpack,
+  BiTools,
+  FaHome,
+} from "oh-vue-icons/icons";
 
 OhVueIcon.add(
   FaFortAwesome,
@@ -23,5 +28,10 @@ OhVueIcon.add(
   HiTranslate,
   OiRepo,
   OiGitCompare,
-  RiRedditLine
-)
+  RiRedditLine,
+  FaVuejs,
+  CoReact,
+  CoWebpack,
+  BiTools,
+  FaHome
+);
