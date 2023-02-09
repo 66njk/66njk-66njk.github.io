@@ -8,7 +8,7 @@ links:
         url: https://github.com/66njk
         img: /img/avatar.jpeg
         desc: My Github
-  - sitename: Education
+      - sitename: Education
         url: http://www.tju.edu.cn/
         img: /img/links/Tianjin_University_logo.svg
         desc: B.Eng,TJU
@@ -17,7 +17,7 @@ links:
       - sitename: ZShuaiNav
         url: http://101.42.18.140/
         img: /img/links/icon.svg
-        desc: 个人导航页
+        desc: personal Nav
       - sitename: WhatToDo
         url: http://101.42.18.140/todo
         img: /img/links/meta.svg
@@ -25,5 +25,5 @@ links:
       - sitename: MallDemo3D
         url: http://101.42.18.140/mall
         img: /img/links/flint.svg
-        desc: 沉浸商城demo
+        desc: 3D mall demo
 ---
