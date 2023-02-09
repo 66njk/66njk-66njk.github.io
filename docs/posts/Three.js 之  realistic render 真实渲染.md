@@ -1,16 +1,14 @@
 ---
+layout: Post
 title: Three.js 之 realistic render 真实渲染
 date: 2021-08-25
-header_img: https://api.vvhan.com/api/view
+header_img: https://gw.alicdn.com/imgextra/i1/O1CN01U8hkPS23CLz1bMesk_!!6000000007219-2-tps-130-130.png
 headerMask: rgba(40, 57, 101, .4)
 tags:
   - Three.js
   - WebGL
 catalog: true
 ---
-
-* content
-{:toc}
 
 本系列为 [Three.js journey](https://threejs-journey.com/) 教程学习笔记。
 
@@ -364,10 +362,6 @@ no shadow | shadow
 最终对比过程
 
 ![](https://gw.alicdn.com/imgextra/i2/O1CN01Ww0nWf1vntWNoZwVf_!!6000000006218-2-tps-2250-1949.png)
-
-在线 [demo 链接](https://gaohaoyang.github.io/threeJourney/25-realisticRender/)
-
-[demo 源码](https://github.com/Gaohaoyang/threeJourney/tree/main/src/25-realisticRender)
 
 # 汉堡模型
 

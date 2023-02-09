@@ -1,4 +1,5 @@
 ---
+layout: Post
 title: Github Actions 部署前端应用  # 博客标题（必须）
 subtitle: 使用 Github Actions 自动部署应用到 Github Pages  # 博客副标题（可选）
 date: 2022-08-21  # 博客日期，会显示在文章头部（可选）

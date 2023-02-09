@@ -1,16 +1,14 @@
 ---
+layout: Post
 title: Three.js 之 Physics 物理引擎
 date: 2021-10-10
-header_img: https://api.vvhan.com/api/view
+header_img: https://gw.alicdn.com/imgextra/i2/O1CN019gu0Pt1dAMENm85xm_!!6000000003695-2-tps-1131-612.png
 headerMask: rgba(40, 57, 101, .4)
 tags:
   - Three.js
   - WebGL
 catalog: true
 ---
-
-* content
-{:toc}
 
 本系列为 [Three.js journey](https://threejs-journey.com/) 教程学习笔记。
 

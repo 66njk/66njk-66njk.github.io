@@ -1,4 +1,5 @@
 ---
+layout: Post
 title: Three.js 之 Geometry 几何体
 date: 2021-06-5
 header_img: https://api.lho.cc/s/t/tpfj.php
@@ -8,9 +9,6 @@ tags:
   - WebGL
 catalog: true
 ---
-
-* content
-{:toc}
 
 本系列为 [Three.js journey](https://threejs-journey.com/) 教程学习笔记。
 
@@ -102,13 +100,6 @@ const tick = () => {
 
 tick()
 ```
-
-完整代码和 demo 如下
-
-在线 [demo 链接](https://gaohaoyang.github.io/threeJourney/09-geometry/)
-
-[demo 源码](https://github.com/Gaohaoyang/threeJourney/tree/main/src/09-geometry)
-
 ## 随机三角形
 
 我们也可以使用随机数创造非常多的顶点，绘制三角形，效果如下

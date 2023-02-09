@@ -1,4 +1,5 @@
 ---
+layout: Post
 title: Three.js 之 Shadow 投影
 date: 2021-06-1
 header_img: https://api.vvhan.com/api/view
@@ -9,8 +10,6 @@ tags:
 catalog: true
 ---
 
-* content
-{:toc}
 
 本系列为 [Three.js journey](https://threejs-journey.com/) 教程学习笔记。
 

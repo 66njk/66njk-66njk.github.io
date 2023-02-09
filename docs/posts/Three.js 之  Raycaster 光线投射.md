@@ -1,4 +1,5 @@
 ---
+layout: Post
 title: Three.js 之 Raycaster 光线投射
 date: 2021-09-21
 header_img: https://api.vvhan.com/api/view
@@ -9,8 +10,6 @@ tags:
 catalog: true
 ---
 
-* content
-{:toc}
 
 本系列为 [Three.js journey](https://threejs-journey.com/) 教程学习笔记。
 
@@ -182,14 +181,6 @@ tick()
 ```
 
 ![](https://gw.alicdn.com/imgextra/i1/O1CN011DDy2n1ibRjJr7abI_!!6000000004431-1-tps-349-311.gif)
-
-在线 [demo 链接](https://gaohaoyang.github.io/threeJourney/20-raycaster/)
-
-可扫码访问
-
-![](https://gw.alicdn.com/imgextra/i1/O1CN016BK6t21Ea87dIN4Ud_!!6000000000367-2-tps-200-200.png)
-
-[demo 源码](https://github.com/Gaohaoyang/threeJourney/tree/main/src/20-raycaster)
 
 # 使用鼠标光线投射
 

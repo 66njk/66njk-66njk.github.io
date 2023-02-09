@@ -1,16 +1,14 @@
 ---
+layout: Post
 title: Three.js 之 Light 光
 date: 2021-09-09
-header_img: https://api.vvhan.com/api/view
+header_img: https://gw.alicdn.com/imgextra/i3/O1CN018KnWPH1w3Sxe63JeC_!!6000000006252-2-tps-1138-503.png
 headerMask: rgba(40, 57, 101, .4)
 tags:
   - Three.js
   - WebGL
 catalog: true
 ---
-
-* content
-{:toc}
 
 本系列为 [Three.js journey](https://threejs-journey.com/) 教程学习笔记。
 
@@ -199,14 +197,6 @@ scene.add(directionalLight)
 
 ![](https://gw.alicdn.com/imgextra/i3/O1CN01P8yquT1XFxNANPibM_!!6000000002895-2-tps-1132-408.png)
 
-
-在线 [demo 链接](https://gaohaoyang.github.io/threeJourney/15-lights/)
-
-可扫码访问
-
-![](https://gw.alicdn.com/imgextra/i4/O1CN01e57rdB26UAD3byA7j_!!6000000007664-2-tps-200-200.png)
-
-[demo 源码](https://github.com/Gaohaoyang/threeJourney/tree/main/src/15-lights)
 
 可以看到光来自右侧。
 

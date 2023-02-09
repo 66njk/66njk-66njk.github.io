@@ -1,7 +1,8 @@
 ---
+layout: Post
 title: FormData上传文件到服务器
 date: 2022-08-29
-header_img: https://tuapi.eees.cc/api.php/?category=biying
+header_img: https://api.vvhan.com/api/view
 headerMask: rgba(40, 57, 101, .4)
 tags:
   - FormData

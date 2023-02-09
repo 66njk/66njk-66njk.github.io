@@ -1,7 +1,8 @@
 ---
+layout: Post
 title: Three.js 之 Particles 粒子效果
 date: 2021-08-18
-header_img: https://api.vvhan.com/api/view
+header_img: https://api.lho.cc/s/t/tpfj.php
 headerMask: rgba(40, 57, 101, .4)
 tags:
   - Three.js
@@ -9,8 +10,6 @@ tags:
 catalog: true
 ---
 
-* content
-{:toc}
 
 本系列为 [Three.js journey](https://threejs-journey.com/) 教程学习笔记。
 

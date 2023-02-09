@@ -1,4 +1,5 @@
 ---
+layout: Post
 title: Three.js 之 炫酷的 3D Text
 date: 2021-07-10
 header_img: https://api.vvhan.com/api/view
@@ -9,8 +10,6 @@ tags:
 catalog: true
 ---
 
-* content
-{:toc}
 
 本系列为 [Three.js journey](https://threejs-journey.com/) 教程学习笔记。
 
