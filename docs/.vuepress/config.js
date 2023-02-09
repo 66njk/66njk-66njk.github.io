@@ -84,7 +84,6 @@ module.exports = {
   ],
   head: [
     ["link", { rel: "icon", href: "/img/avatar.png" }],
-    ["link", { rel: "stylesheet", href: "/scroll.css" }],
   ],
   title: "ZShuai",
   description: "ZShuai's Blog ",
