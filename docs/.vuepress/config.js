@@ -82,16 +82,16 @@ module.exports = {
       },
     ],
   ],
+  head: [
+    ["link", { rel: "icon", href: "/img/avatar.png" }],
+    ["link", { rel: "script", href: "/scroll.js" }],
+  ],
   title: "ZShuai",
   description: "ZShuai's Blog ",
   theme: "gungnir",
   port: "8880",
   evergreen: true,
   themeConfig: {
-    head: [
-      ["link", { rel: "icon", href: "/img/avatar.png" }],
-      ["link", { rel: "script", href: "/scroll.js" }],
-    ],
     hitokoto: true,
     footer: `
         &copy; <a href="https://github.com/66njk" target="_blank">ZShuai</a>
