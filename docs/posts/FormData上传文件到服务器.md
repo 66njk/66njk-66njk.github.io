@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: FormData上传文件到服务器
-subtitle : 上传文件一定是 post 请求 , 这里我们使用 koa 实现一个简易的 post 请求, 并且让获取前端发来的 formdata 数据 并进行一些简易的处理 ;
+subtitle : 上传文件一定是 post 请求 , 这里我们使用 koa 实现一个简易的 post 请求, 并且让获取前端发来的 formdata 数据 并进行一些简易的处理 
 date: 2022-08-29
 header_img: https://api.ixiaowai.cn/gqapi/gqapi.php
 headerMask: rgba(40, 57, 101, .4)

@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: Three.js 之 使用 Blender 设计和导出模型
-subtitle: 有很多 3D 建模的软件，比如 Cinema 4D、Maya、3DS Max、Blender、ZBrush 等。
+subtitle: 有很多 3D 建模的软件，比如 Cinema 4D、Maya、3DS Max、Blender、ZBrush 等
 date: 2021-07-21
 header_img: https://api.ixiaowai.cn/gqapi/gqapi.php
 headerMask: rgba(40, 57, 101, .4)

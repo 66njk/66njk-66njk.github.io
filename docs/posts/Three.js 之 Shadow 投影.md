@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: Three.js 之 Shadow 投影
-subtitle: 几何体的背光面确实是暗的，这被称为 core shadow，我们缺失的是 drop shadow (投影)，物体投射到其他物体上的影子。
+subtitle: 几何体的背光面确实是暗的，这被称为 core shadow，我们缺失的是 drop shadow (投影)，物体投射到其他物体上的影子
 date: 2021-06-1
 header_img: https://api.vvhan.com/api/view
 headerMask: rgba(40, 57, 101, .4)

@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: Three.js 之 Import Model 导入模型
-subtitle: 如果我们需要更复杂的模型，最好使用 3D 软件建模，然后导入到场景中。本节我们就来学学如何导入一个做好的 3D 模型。
+subtitle: 如果我们需要更复杂的模型，最好使用 3D 软件建模，然后导入到场景中。本节我们就来学学如何导入一个做好的 3D 模型
 date: 2021-06-14
 header_img: https://api.ixiaowai.cn/gqapi/gqapi.php
 headerMask: rgba(40, 57, 101, .4)

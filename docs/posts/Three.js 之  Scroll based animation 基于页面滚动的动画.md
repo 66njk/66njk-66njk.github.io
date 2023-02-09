@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: Three.js 之 Scroll based animation 基于页面滚动的动画
-subtitle: 我们会把 WebGL 部分固定到页面中，随着页面的滚动 WebGL 中也随之相应的产生动画效果。
+subtitle: 我们会把 WebGL 部分固定到页面中，随着页面的滚动 WebGL 中也随之相应的产生动画效果
 date: 2021-08-2
 header_img: https://gw.alicdn.com/imgextra/i3/O1CN01TxEhQk1Y7XiOLqqNU_!!6000000003012-2-tps-1133-591.png
 headerMask: rgba(40, 57, 101, .4)
