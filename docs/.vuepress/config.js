@@ -82,9 +82,7 @@ module.exports = {
       },
     ],
   ],
-  head: [
-    ["link", { rel: "icon", href: "/img/avatar.png" }],
-  ],
+  head: [["link", { rel: "icon", href: "/img/avatar.png" }]],
   title: "ZShuai",
   description: "ZShuai's Blog ",
   theme: "gungnir",
@@ -101,7 +99,7 @@ module.exports = {
     personalInfo: {
       name: "ZShuai",
       avatar: "/img/avatar.png",
-      description: "新的风暴已经出现",
+      description: "A new storm has emerged ",
       sns: {
         github: "66njk", // Github
         email: "2927136497@qq.com", // 邮箱
